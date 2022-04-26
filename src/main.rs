@@ -24,7 +24,7 @@ macro_rules! zip {
 }
 
 fn main() {
-    let text = "snake";
+    let text = "Text scrolling!";
     
     let text = match text.len() {
         0 => String::from("     "),
